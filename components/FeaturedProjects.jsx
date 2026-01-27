@@ -45,7 +45,7 @@ export default function FeaturedProjects({ limit }) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.4 }}
-        className="mb-12 text-center"
+        className="mb-6 text-center"
       >
         <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           {limit ? "Featured Projects" : "All Projects"}

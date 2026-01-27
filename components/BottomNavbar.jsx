@@ -14,18 +14,18 @@ export default function BottomNavbar() {
 
   const navItems = [
     { name: "Home", href: "/", icon: Home },
-    { name: "GitHub", href: "https://github.com/yourusername", icon: Github },
+    { name: "GitHub", href: "https://github.com/OmarCypha700", icon: Github },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/nana-adjei-caleb",
       icon: Linkedin,
     },
     {
       name: "Twitter",
-      href: "https://twitter.com/yourusername",
+      href: "https://twitter.com/omar_cypha",
       icon: Twitter,
     },
-    { name: "CV", href: "/cv", icon: FileText },
+    { name: "CV", href: "/resume.pdf", icon: FileText },
   ];
 
   return (

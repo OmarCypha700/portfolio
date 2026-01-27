@@ -1,6 +1,7 @@
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
 import FeaturedProjects from "@/components/FeaturedProjects";
+import GetInTouch from "@/components/GetInTouch";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <FeaturedProjects limit={3} />
+      <GetInTouch />
     </div>
   );
 }
