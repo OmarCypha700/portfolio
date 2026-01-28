@@ -15,7 +15,7 @@ export default function SkillsSection() {
     { name: "Backend", icon: Server, items: ["Django", "REST APIs", "JWT Auth"] },
     { name: "Databases", icon: Database, items: ["PostgreSQL", "SQLite", "MySQL"] },
     { name: "Languages", icon: Code, items: ["Python", "JavaScript", "SQL"] },
-    // { name: "Data / ML", icon: Cpu, items: ["Pandas", "NumPy", "Scikit-learn"] },
+    { name: "Tools & Platforms", icon: Cpu, items: ["Git", "GitHub", "Vercel", "PythonAnywhere"] },
   ];
 
   return (
