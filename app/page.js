@@ -8,7 +8,7 @@ export default function Home() {
     <div className="max-w-250 mx-auto px-4 py-16 sm:px-6 md:py-24">
       <AboutSection />
       <SkillsSection />
-      <FeaturedProjects limit={3} />
+      <FeaturedProjects limit={4} />
       <GetInTouch />
     </div>
   );

@@ -34,7 +34,11 @@ export default function AboutSection() {
           className="flex flex-col items-center md:items-start"
         >
           <h1 className="mb-3 text-2xl font-semibold tracking-tight sm:text-3xl md:text-4xl">
-            Hi, I&apos;m Cypha
+            Hi, I&apos;m Caleb
+          </h1>
+
+          <h1 className="mb-3 tracking-tight">
+           aka Cypha
           </h1>
 
           <div className="mt-4">
